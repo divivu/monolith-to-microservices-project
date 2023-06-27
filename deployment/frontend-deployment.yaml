@@ -17,6 +17,8 @@ spec:
       containers:
         - image: divdocker789/udagram-frontend
           name: frontend
+          ports:
+            - containerPort: 80
           imagePullPolicy: Always
           resources:
             requests:
