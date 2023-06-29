@@ -18,7 +18,7 @@ spec:
         - image: divdocker789/reverseproxy
           name: reverseproxy
           ports:
-            - containerPort: 80
+          - containerPort: 8001
           imagePullPolicy: Always
           resources:
             requests:
