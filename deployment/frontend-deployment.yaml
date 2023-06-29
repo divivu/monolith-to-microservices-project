@@ -15,7 +15,7 @@ spec:
         service: frontend
     spec:
       containers:
-      - image: divdocker789/udagram-frontend:v8
+      - image: divdocker789/udagram-frontend
         name: frontend
         imagePullPolicy: Always
         ports:
