@@ -15,7 +15,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-        - image: divdocker789/reverseproxy
+        - image: divdocker789/reverseproxy:v1
           name: reverseproxy
           ports:
           - containerPort: 8001
